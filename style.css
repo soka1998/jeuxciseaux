@@ -6,6 +6,17 @@ body {
     padding: 0;
 }
 
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #076b31; /* Rouge */
+}
+ 
+
+
+
+
 section {
     
     max-width: 600px;
@@ -65,9 +76,3 @@ button:hover {
     background-color: #27ae60; /* Vert plus foncé au survol */
 }
 
-#result {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 20px;
-    color: #06040c; /* Rouge */
-}
