@@ -1,19 +1,40 @@
+@font-face {
+    font-family: 'font';
+    src: url(BruceForeverRegular-X3jd2.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
-    font-family: 'Arial', sans-serif;
+    background-image: url("img/backgndhomz2.png");
+    font-family: font;
     background-color: #f8f8f8;
     text-align: center;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #result {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
-    color: #076b31; /* Rouge */
+    color: #a77222ef;
+
 }
  
-
+.style{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-image: url("img/background.png");
+    background-position: top;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
@@ -21,19 +42,39 @@ section {
     
     max-width: 600px;
     margin: 50px auto;
-    background-color: #adc8da; /* Bleu */
+    background-color: #28B4E5; /* Bleu */
     color: #fff; /* Texte en blanc */
     padding: 25px;
     border-radius: 7px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgb(233, 235, 235);
 }
 .choice{
     display: flex;
     width:100 ;
     justify-content: space-between;
+    
 }
-h1 {
+.style{
+    background-color: rgb(205, 203, 202);
+    margin: 0;
+    padding: 0;
+  
+
+}
+.style h4{
+    font-family: 'font';
+    margin-top: 50px;
+}
+.welcome2 {
     color: #080a0a; /* Couleur de texte légère */
+}
+
+
+ .welcome{
+    font: size 100%;
+    font-size: xx-large;
+    font-family:fantasy;
+    color: #46035c;
 }
 
 .choice {
@@ -56,8 +97,8 @@ img {
 
 button {
     font-size: 16px;
-    padding: 5px 30px;
-    margin-top: 20px;
+    padding: 5px 60px;
+    margin-top: 10px;
     border: 1px solid  #8813af;
     background-color:#8813af ;
     cursor: pointer;
@@ -68,11 +109,10 @@ button {
 }
 button:focus{
     background: #fff;
-    color: #8813af;
+    color: #d2b7dd;
 }
 
 
 button:hover {
-    background-color: #27ae60; /* Vert plus foncé au survol */
+    background-color: #9357be; /* Vert plus foncé au survol */
 }
-
