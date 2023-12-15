@@ -13,16 +13,21 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+   overflow:hidden
+   
 }
 
 #result {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: -70px;
     color: #a77222ef;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
  
 .style{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -36,21 +41,37 @@ body {
     flex-direction: column;
 }
 
+.game-container {
+    text-align: center;
+}
+.game-result img {
+    max-width: 100px;
+    margin: 10px;
+}
+
+.score-container {
+    margin-top: 20px;
+
+}
+
 
 
 section {
     
     max-width: 600px;
     margin: 50px auto;
+    margin-top: 10px;
     background-color: #28B4E5; /* Bleu */
     color: #fff; /* Texte en blanc */
     padding: 25px;
     border-radius: 7px;
     box-shadow: 0 0 10px rgb(233, 235, 235);
+    overflow: hidden;
+   
 }
 .choice{
     display: flex;
-    width:100 ;
+    width:80;
     justify-content: space-between;
     
 }
@@ -78,7 +99,8 @@ section {
 }
 
 .choice {
-    margin: 20px 0;
+    margin: 30px 0;
+    
 }
 
 .choice h3{
